@@ -20,7 +20,7 @@ export default function Home() {
         <div className="mt-5 max-w-[640px] space-y-3 text-lg leading-relaxed text-muted">
           <p>
             Adab is an Arabic word that roughly means knowing what a situation
-            asks of you. Not politeness — something closer to attentiveness. The
+            asks of you. Not politeness, something closer to attentiveness. The
             right action depends on who&apos;s there, what&apos;s at stake, what
             the moment actually needs.
           </p>
@@ -60,7 +60,7 @@ export default function Home() {
               <p className="mt-3 text-sm leading-relaxed text-muted">
                 When AI builds a model of who you are, you should be able to see
                 it, correct it, and take it with you. Sourced makes that model
-                visible — so the system is honest about what it thinks it knows.
+                visible so the system is honest about what it thinks it knows.
               </p>
               <span className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-accent opacity-0 transition-opacity group-hover:opacity-100">
                 Visit
@@ -97,8 +97,8 @@ export default function Home() {
                 AI that requires you
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">
-                Most AI writes for you. Cursive keeps you in the process —
-                seven thinking tools that question, challenge, and reframe your
+                Most AI writes for you. Cursive keeps you in the process.
+                Seven thinking tools that question, challenge, and reframe your
                 work, but never take the pen. A bicycle for the mind, not a
                 self-driving car.
               </p>
@@ -134,8 +134,8 @@ export default function Home() {
                 A bilingual reader
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">
-                Hear a paragraph in Arabic, then rewind and hear it in English —
-                back and forth until the meaning lands. Transliterations are
+                Hear a paragraph in Arabic, then rewind and hear it in English.
+                Back and forth until the meaning lands. Transliterations are
                 pronounced the way they&apos;re meant to sound, not anglicized.
               </p>
             </div>
@@ -155,7 +155,7 @@ export default function Home() {
           <div className="mt-6 max-w-[640px] space-y-4 text-base leading-relaxed text-muted">
             <p>
               In Arabic literary tradition, adab meant something like the
-              cultivation of good conduct — knowing how to act well in a given
+              cultivation of good conduct, knowing how to act well in a given
               situation. In Sufi thought the idea deepened: adab became the
               practice of presence. Reading a room before you speak into it.
               Not etiquette. Awareness.
@@ -164,7 +164,7 @@ export default function Home() {
               Most software doesn&apos;t do this. It treats every person the
               same, every context the same, every interaction as a chance to be
               maximally helpful. But the right response actually depends on the
-              relationship — who&apos;s asking, what they need, what power
+              relationship: who&apos;s asking, what they need, what power
               dynamics are in play. We think that&apos;s worth building for.
             </p>
           </div>
@@ -178,7 +178,7 @@ export default function Home() {
                 line: "What to share and what to hold back depends on the relationship, not a global setting",
               },
               {
-                line: "The goal isn\u2019t to be maximally capable — it\u2019s to be appropriate to the moment",
+                line: "The goal isn\u2019t to be maximally capable, it\u2019s to be appropriate to the moment",
               },
             ].map((item) => (
               <div
