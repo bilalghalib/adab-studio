@@ -32,55 +32,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Philosophy */}
-      <section className="border-t border-line bg-surface">
-        <div className="mx-auto max-w-[960px] px-6 py-20">
-          <p className="text-[10px] font-bold uppercase tracking-widest text-accent">
-            Philosophy
-          </p>
-          <h2 className="mt-3 text-2xl tracking-tight text-ink sm:text-3xl">
-            Where the word comes from
-          </h2>
-          <div className="mt-6 max-w-[640px] space-y-4 text-base leading-relaxed text-muted">
-            <p>
-              In Arabic literary tradition, adab meant something like the
-              cultivation of good conduct — knowing how to act well in a given
-              situation. In Sufi thought the idea deepened: adab became the
-              practice of presence. Reading a room before you speak into it.
-              Not etiquette. Awareness.
-            </p>
-            <p>
-              Most software doesn&apos;t do this. It treats every person the
-              same, every context the same, every interaction as a chance to be
-              maximally helpful. But the right response actually depends on the
-              relationship — who&apos;s asking, what they need, what power
-              dynamics are in play. We think that&apos;s worth building for.
-            </p>
-          </div>
-
-          <div className="mt-12 grid gap-6 sm:grid-cols-3">
-            {[
-              {
-                line: "Every interaction has a context that shapes what the right response is",
-              },
-              {
-                line: "What to share and what to hold back depends on the relationship, not a global setting",
-              },
-              {
-                line: "The goal isn\u2019t to be maximally capable — it\u2019s to be appropriate to the moment",
-              },
-            ].map((item) => (
-              <div
-                key={item.line}
-                className="border-l-2 border-accent/20 py-3 pl-5"
-              >
-                <p className="text-sm leading-snug text-ink">{item.line}</p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* Projects */}
       <section className="border-t border-line">
         <div className="mx-auto max-w-[960px] px-6 py-20">
@@ -170,6 +121,55 @@ export default function Home() {
                 </svg>
               </span>
             </a>
+          </div>
+        </div>
+      </section>
+
+      {/* Philosophy */}
+      <section className="border-t border-line bg-surface">
+        <div className="mx-auto max-w-[960px] px-6 py-20">
+          <p className="text-[10px] font-bold uppercase tracking-widest text-accent">
+            Philosophy
+          </p>
+          <h2 className="mt-3 text-2xl tracking-tight text-ink sm:text-3xl">
+            Where the word comes from
+          </h2>
+          <div className="mt-6 max-w-[640px] space-y-4 text-base leading-relaxed text-muted">
+            <p>
+              In Arabic literary tradition, adab meant something like the
+              cultivation of good conduct — knowing how to act well in a given
+              situation. In Sufi thought the idea deepened: adab became the
+              practice of presence. Reading a room before you speak into it.
+              Not etiquette. Awareness.
+            </p>
+            <p>
+              Most software doesn&apos;t do this. It treats every person the
+              same, every context the same, every interaction as a chance to be
+              maximally helpful. But the right response actually depends on the
+              relationship — who&apos;s asking, what they need, what power
+              dynamics are in play. We think that&apos;s worth building for.
+            </p>
+          </div>
+
+          <div className="mt-12 grid gap-6 sm:grid-cols-3">
+            {[
+              {
+                line: "Every interaction has a context that shapes what the right response is",
+              },
+              {
+                line: "What to share and what to hold back depends on the relationship, not a global setting",
+              },
+              {
+                line: "The goal isn\u2019t to be maximally capable — it\u2019s to be appropriate to the moment",
+              },
+            ].map((item) => (
+              <div
+                key={item.line}
+                className="border-l-2 border-accent/20 py-3 pl-5"
+              >
+                <p className="text-sm leading-snug text-ink">{item.line}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
