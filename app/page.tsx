@@ -39,10 +39,10 @@ export default function Home() {
             Projects
           </p>
           <h2 className="mt-3 text-2xl tracking-tight text-ink sm:text-3xl">
-            Two ways we&apos;re working on this
+            What we&apos;re building
           </h2>
 
-          <div className="mt-10 grid gap-6 sm:grid-cols-2">
+          <div className="mt-10 grid gap-6 sm:grid-cols-3">
             {/* Sourced */}
             <a
               href="https://sourced.adab.studio"
@@ -121,6 +121,24 @@ export default function Home() {
                 </svg>
               </span>
             </a>
+
+            {/* Versed */}
+            <div className="panel block">
+              <div className="flex items-start justify-between">
+                <h3 className="text-xl tracking-tight text-ink">Versed</h3>
+                <span className="rounded-full bg-accent-soft px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider text-accent">
+                  Active
+                </span>
+              </div>
+              <p className="serif mt-1 text-sm italic text-accent">
+                A bilingual reader
+              </p>
+              <p className="mt-3 text-sm leading-relaxed text-muted">
+                Turns Arabic PDFs into audiobooks you can actually learn from —
+                word-level highlighting, proper honorifics spoken naturally, and
+                morphology breakdowns that teach you the language as you listen.
+              </p>
+            </div>
           </div>
         </div>
       </section>
