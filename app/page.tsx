@@ -134,10 +134,9 @@ export default function Home() {
                 A bilingual reader
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">
-                Listen to a paragraph in Arabic, rewind and hear it in English.
-                Go back and forth until it clicks. When the text says
-                &quot;salah&quot; or &quot;tawakkul,&quot; it&apos;s pronounced
-                properly — not with an English accent.
+                Hear a paragraph in Arabic, then rewind and hear it in English —
+                back and forth until the meaning lands. Transliterations are
+                pronounced the way they&apos;re meant to sound, not anglicized.
               </p>
             </div>
           </div>
