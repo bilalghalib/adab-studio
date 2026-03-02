@@ -19,14 +19,15 @@ export default function Home() {
         </h1>
         <div className="mt-8 max-w-[640px] space-y-4 text-lg leading-relaxed text-muted">
           <p>
-            Adab is an Arabic word for the art of doing what the moment asks.
-            Not politeness — attentiveness. The right action depends on who is
-            present, what is at stake, and what the situation actually needs.
+            Adab is an Arabic word that roughly means knowing what a situation
+            asks of you. Not politeness — something closer to attentiveness. The
+            right action depends on who&apos;s there, what&apos;s at stake, what
+            the moment actually needs.
           </p>
           <p>
-            Adab Studio builds technology that practices this kind of attention.
-            Software that reads context before it acts. AI that knows the
-            difference between what it can say and what it should.
+            We build tools that try to practice this. Software that reads the
+            room before it speaks. AI that cares about the difference between
+            what it can do and what it should.
           </p>
         </div>
       </section>
@@ -38,49 +39,42 @@ export default function Home() {
             Philosophy
           </p>
           <h2 className="mt-3 text-2xl tracking-tight text-ink sm:text-3xl">
-            What adab means
+            Where the word comes from
           </h2>
           <div className="mt-6 max-w-[640px] space-y-4 text-base leading-relaxed text-muted">
             <p>
-              In the Arabic literary tradition, adab originally meant the
-              cultivation of refined conduct — the knowledge of how to act well
-              in any situation. In Sufi thought it deepened: adab became the
-              practice of presence, of reading a room before speaking into it.
-              Not etiquette, but awareness. Not rules, but responsiveness.
+              In Arabic literary tradition, adab meant something like the
+              cultivation of good conduct — knowing how to act well in a given
+              situation. In Sufi thought the idea deepened: adab became the
+              practice of presence. Reading a room before you speak into it.
+              Not etiquette. Awareness.
             </p>
             <p>
-              We think this is exactly what&apos;s missing from most technology.
-              Every AI interaction has a context — a person, a power dynamic, a
-              set of stakes. The right response is never just the most capable
-              one. It&apos;s the one that fits.
+              Most software doesn&apos;t do this. It treats every person the
+              same, every context the same, every interaction as a chance to be
+              maximally helpful. But the right response actually depends on the
+              relationship — who&apos;s asking, what they need, what power
+              dynamics are in play. We think that&apos;s worth building for.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-px sm:grid-cols-3">
+          <div className="mt-12 grid gap-6 sm:grid-cols-3">
             {[
               {
-                line: "The right thing depends on who's in the room",
-                note: "Context before capability",
+                line: "Every interaction has a context that shapes what the right response is",
               },
               {
-                line: "Transparency is relational — what to reveal depends on the relationship",
-                note: "Trust before disclosure",
+                line: "What to share and what to hold back depends on the relationship, not a global setting",
               },
               {
-                line: "Technology should be attentive, not just intelligent",
-                note: "Presence before performance",
+                line: "The goal isn\u2019t to be maximally capable — it\u2019s to be appropriate to the moment",
               },
             ].map((item) => (
               <div
                 key={item.line}
-                className="border-l-2 border-accent/30 py-4 pl-5"
+                className="border-l-2 border-accent/20 py-3 pl-5"
               >
-                <p className="serif text-base italic leading-snug text-ink">
-                  {item.line}
-                </p>
-                <p className="mt-2 text-xs font-medium uppercase tracking-wider text-accent">
-                  {item.note}
-                </p>
+                <p className="text-sm leading-snug text-ink">{item.line}</p>
               </div>
             ))}
           </div>
@@ -94,7 +88,7 @@ export default function Home() {
             Projects
           </p>
           <h2 className="mt-3 text-2xl tracking-tight text-ink sm:text-3xl">
-            Two expressions of the same idea
+            Two ways we&apos;re working on this
           </h2>
 
           <div className="mt-10 grid gap-6 sm:grid-cols-2">
@@ -110,12 +104,12 @@ export default function Home() {
                 </span>
               </div>
               <p className="serif mt-1 text-sm italic text-accent">
-                A protocol for honest AI
+                A listening protocol for AI
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">
-                Makes AI&apos;s internal models of people visible, correctable,
-                and portable. What the system thinks it knows about you should
-                never be hidden from you.
+                When AI builds a model of who you are, you should be able to see
+                it, correct it, and take it with you. Sourced makes that model
+                visible — so the system is honest about what it thinks it knows.
               </p>
               <span className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-accent opacity-0 transition-opacity group-hover:opacity-100">
                 Visit
@@ -139,7 +133,7 @@ export default function Home() {
 
             {/* Cursive */}
             <a
-              href="https://cursive.adab.studio"
+              href="https://cursivegpt.com"
               className="panel group block no-underline"
             >
               <div className="flex items-start justify-between">
@@ -149,12 +143,13 @@ export default function Home() {
                 </span>
               </div>
               <p className="serif mt-1 text-sm italic text-accent">
-                Writing that listens
+                AI that requires you
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">
-                A conversational writing tool powered by Sourced&apos;s
-                listening layer. It doesn&apos;t write for you — it helps you
-                hear what you&apos;re already trying to say.
+                Most AI writes for you. Cursive keeps you in the process —
+                seven thinking tools that question, challenge, and reframe your
+                work, but never take the pen. A bicycle for the mind, not a
+                self-driving car.
               </p>
               <span className="mt-4 inline-flex items-center gap-1 text-xs font-medium text-accent opacity-0 transition-opacity group-hover:opacity-100">
                 Visit
