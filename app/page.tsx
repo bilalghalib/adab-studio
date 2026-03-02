@@ -11,13 +11,13 @@ export default function Home() {
       </nav>
 
       {/* Hero */}
-      <section className="mx-auto max-w-[960px] px-6 pt-24 pb-20">
+      <section className="mx-auto max-w-[960px] px-6 pt-12 pb-10">
         <h1 className="text-4xl leading-tight tracking-tight text-ink sm:text-5xl">
           <span className="italic text-accent">Right time.</span>{" "}
           <span className="italic text-accent">Right place.</span>{" "}
           <span className="italic text-accent">Right thing.</span>
         </h1>
-        <div className="mt-8 max-w-[640px] space-y-4 text-lg leading-relaxed text-muted">
+        <div className="mt-5 max-w-[640px] space-y-3 text-lg leading-relaxed text-muted">
           <p>
             Adab is an Arabic word that roughly means knowing what a situation
             asks of you. Not politeness — something closer to attentiveness. The
@@ -34,7 +34,7 @@ export default function Home() {
 
       {/* Projects */}
       <section className="border-t border-line">
-        <div className="mx-auto max-w-[960px] px-6 py-20">
+        <div className="mx-auto max-w-[960px] px-6 py-12">
           <p className="text-[10px] font-bold uppercase tracking-widest text-accent">
             Projects
           </p>
