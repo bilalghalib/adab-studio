@@ -104,7 +104,7 @@ export default function Home() {
                 </span>
               </div>
               <p className="serif mt-1 text-sm italic text-accent">
-                A listening protocol for AI
+                A protocol for honest AI
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">
                 When AI builds a model of who you are, you should be able to see
