@@ -134,9 +134,10 @@ export default function Home() {
                 A bilingual reader
               </p>
               <p className="mt-3 text-sm leading-relaxed text-muted">
-                Turns Arabic PDFs into audiobooks you can actually learn from —
-                word-level highlighting, proper honorifics spoken naturally, and
-                morphology breakdowns that teach you the language as you listen.
+                Listen to a paragraph in Arabic, rewind and hear it in English.
+                Go back and forth until it clicks. When the text says
+                &quot;salah&quot; or &quot;tawakkul,&quot; it&apos;s pronounced
+                properly — not with an English accent.
               </p>
             </div>
           </div>
